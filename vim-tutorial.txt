@@ -1,0 +1,37 @@
+This is an vim tutorials with all commands and options
+
+---------------------------------------------------------------------------
+
+To Open any file in vim or create a new file type - "vim file-name"
+To enter into edit mode in vim just click - i,a and o
+"Shift+i"- Enters Insert mode at the begig of  the line where the curser is
+"Shift+a" - Enters Insert mode at the end of the line where the curser is 
+"Shift+o" - Enters insert mode while openinhg an extra line above the line where curser is 
+To exit edit mode click -  Esc
+To exit vim without saving any changes - Exit Insert mode and type ":q!"(! marks is must without it vim will throw a error and ! means ignore the changes made) and hit enter
+To exit vim by saving changes - Exit enter mode and type ":wq" and hit enter 
+To save changes without exiting vim - in normal mode type ":w" and hit enter
+
+To show line numbers on left side - In normal mode command ":set number" and hit enter
+We can also use H key for left, J for down K for up  and L for right instead of arrow keys in normal mode
+Also in normal mode we can multiply arrow functions by multiple time by "number then arrow" for example pressing "5 and then J" will move the curser 5 line above instead of one.
+
+By using ":set relativenumber" instead of absolute number we can get number relative to the line where curser is
+By using ":set mouse=a" we can use the ,mouse also 
+Whenever we close the particular file any vim setting made there will be lost whenever we close that particular file so to solve this we have to made chages to the configuration file or vim rc file 
+
+This is just the basic from freecodecamp youtube video about vim upto timestamp 25:00, use it more than try to learn i more by doing it. Aslso you can use vim cheat sheet from Google.
+
+//Keybindings///
+
+To undo press "u" in normal mode(Ctrl+Z won't because it have a different function in terminal, will exit the current process and run that in background)
+To redo press "ctrl+r" in normal mode
+We can also multiply undo an  redo multiple times just as arrow functions.
+
+//With "Insert" and "Normal" mode we also have a "Visual" mode which is for selecting, just enter V before or afte the word/line you want to select and press up, down, left or right arrow keys or K,J,H,L keys accordingly.
+After selecting we can do various task such as deleting(press d  key in keyboard), copying(y), cutting,
+For Paste use(p)
+***** Almost every command can be multiplied by combining with a number just like arrow functions ********
+
+To delete a whole line press "dd" in normal mode and hit enter
+To copy a whole line press "yy" in normal mode and hit enter
